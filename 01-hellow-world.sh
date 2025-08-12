@@ -1,3 +1,9 @@
 #!/bin/bash
 
-echo 'Hello World, I am learning shell-scripting'
+NUMBER1=$1
+NUMBER2=$2
+
+SUM=$((NUMBER1+NUMBER2))
+
+echo "Addition of two number is: $SUM"
+
