@@ -7,10 +7,9 @@ R="\e[31m"
 
 SUM=$((NUMBER1+NUMBER2))
 
-if [$SUM -eq 90]
-
+if [ $SUM -eq 90 ]
+then
 echo -e "It is a good sign ... $R$SUM"
 else
-
 echo -e "It is not a good sign .... $R$SUM"
 fi
