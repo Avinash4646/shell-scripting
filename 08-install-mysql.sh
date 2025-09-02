@@ -8,4 +8,4 @@ then
     exit 1
 fi
 
-yum install mysql-server -y
+yum install mysql-community-server -y
