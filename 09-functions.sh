@@ -22,11 +22,11 @@ fi
 
 # it is our responsibility to check the installation is success or not
 
-yum install mysql -y
+yum install mysqlll -y
 
 VALIDATE $? "Installing Mysql"
 
-yum install postfix -y
+yum install postfixxx -y
 
 VALIDATE $? "Installing Postfix"
 
