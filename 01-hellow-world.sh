@@ -1,15 +1,9 @@
 #!/bin/bash
 
-NUMBER1=$1
-NUMBER2=$2
+echo "Hello world, I am learing Devops with AWS"
 
-R="\e[31m"
+echo "Ramesh: what are you doing?"
+echo "Suresh: i am doing good, how about you"
+echo " Ramesh: nothing"
+echo "Suresh: nothing from my side"
 
-SUM=$((NUMBER1+NUMBER2))
-
-if [ $SUM -eq 90 ]
-then
-echo -e "It is a good sign ... $R$SUM"
-else
-echo -e "It is not a good sign .... $R$SUM"
-fi
